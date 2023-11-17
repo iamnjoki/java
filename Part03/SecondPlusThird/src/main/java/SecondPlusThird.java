@@ -16,7 +16,10 @@ public class SecondPlusThird {
             
             numbers.add(number);
         }
-
-        System.out.println(numbers.get(0));
+        
+        int secondVal = numbers.get(1);
+        int thirdVal = numbers.get(2);
+        
+        System.out.println(secondVal + thirdVal);
     }
 }
