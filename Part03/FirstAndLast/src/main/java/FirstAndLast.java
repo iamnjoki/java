@@ -17,6 +17,8 @@ public class LastInList {
             list.add(input);
         }
         
-        System.out.println(list.get(list.size() - 1));
+        String first = list.get(0);
+        String last = list.get(list.size() - 1);
+        System.out.println("First item: " + first +"\nLast item: " + last);
     }
 }
