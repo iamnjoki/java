@@ -16,7 +16,11 @@ public class SecondPlusThird {
             
             numbers.add(number);
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 2d82187e6a9061aca5708906dbe899d76b477a29
         int secondVal = numbers.get(1);
         int thirdVal = numbers.get(2);
         
