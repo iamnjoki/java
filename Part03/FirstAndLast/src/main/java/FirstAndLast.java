@@ -5,7 +5,7 @@ import java.util.Scanner;
 <<<<<<< HEAD
 public class FirstAndLast {
 =======
-public class FisrtAndLast {
+public class FirstAndLast {
 >>>>>>> 2d82187e6a9061aca5708906dbe899d76b477a29
 
     public static void main(String[] args) {
