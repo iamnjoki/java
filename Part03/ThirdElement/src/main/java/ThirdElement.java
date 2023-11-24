@@ -18,7 +18,7 @@ public class ThirdElement {
         }
         
         if(list.size() < 3)
-            System.out.println("Less than two items");
+            System.out.println("Less than three items");
         else System.out.println(list.get(2));
     }
 }
