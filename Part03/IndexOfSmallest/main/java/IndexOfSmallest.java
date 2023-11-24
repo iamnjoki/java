@@ -30,7 +30,6 @@ public class IndexOfSmallest {
         for(int i = 0; i < userInput.size(); i++){
             if(userInput.get(i) < smallest){
                 smallest = userInput.get(i);
-                //indices.add(i);
             }
         }
         
@@ -40,10 +39,6 @@ public class IndexOfSmallest {
            if(userInput.get(j) == smallest)
                 System.out.println("Found at " + j);
         }
-        
-        
-        //for(int index : indices)
-        //   System.out.println(index);
     }
     
     
