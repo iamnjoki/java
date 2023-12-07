@@ -5,25 +5,25 @@ public class Main {
     public static void main(String[] args) {
 
         // Try out your class here
-        SimpleCollection j = new SimpleCollection("characters");
-        System.out.println(j);        
+        SimpleCollection characters = new SimpleCollection("characters");
+        System.out.println(characters);        
         
         System.out.println();
         
-        j.add("magneto");
-        System.out.println(j);
+        characters.add("magneto");
+        System.out.println(characters);
         
         System.out.println();
         
-        j.add("mystique");
-        System.out.println(j);
+        characters.add("mystique");
+        System.out.println(characters);
         
         System.out.println();
         
-        j.add("phoenix");
-        System.out.println(j);
+        characters.add("phoenix");
+        System.out.println(characters);
         
         
-        System.out.println("Elems: " + j.getElements());
+        System.out.println("Elems: " + characters.getElements());
     }
 }

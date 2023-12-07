@@ -8,17 +8,17 @@ public class Main {
         Gift accessory = new Gift("Celine Bag", 1);
         Gift book = new Gift("Be a better coder", 3);
         
-        Package p = new Package();
+        Package packageOne = new Package();
         
-        p.addGift(accessory);
-        p.addGift(book);
+        packageOne.addGift(accessory);
+        packageOne.addGift(book);
         
         System.out.println("Gift: " + accessory.toString());
         System.out.println();
-        p.allGifts();
+        packageOne.allGifts();
         
         System.out.println();
-        int totalWeight = p.totalWeight();
+        int totalWeight = packageOne.totalWeight();
         System.out.println("Total gifts weight: " + totalWeight);
     }
 }
